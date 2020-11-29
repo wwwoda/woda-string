@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.2.1@ea9cb72143b77e7520c52fa37290bd8d8bc88fd9">
+  <file src="src/StringFilter/PregReplaceStringFilter.php">
+    <InvalidReturnStatement occurrences="1">
+      <code>\Safe\preg_replace($this-&gt;pattern, $this-&gt;replacement, $string)</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType occurrences="1">
+      <code>string</code>
+    </InvalidReturnType>
+  </file>
+</files>
