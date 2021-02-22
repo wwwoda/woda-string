@@ -34,12 +34,6 @@
             "Woda\\Test\\Unit\\String\\": "tests/unit"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://pack.eventjet.at/"
-        }
-    ],
     "minimum-stability": "stable",
     "scripts": {
         "check": [

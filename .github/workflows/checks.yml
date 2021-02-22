@@ -21,7 +21,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
-          extensions: exif, gd, imagick, intl, mysqli, redis, soap, sqlite3
 
       - name: Get Composer cache directory
         id: composer-cache
