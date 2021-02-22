@@ -42,7 +42,6 @@ jobs:
           composer check-deps
           composer cs-check
           composer phpstan -- --no-progress
-          composer psalm
 
       - name: Tests
         run: |
