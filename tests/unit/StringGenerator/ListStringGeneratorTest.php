@@ -16,6 +16,7 @@ class ListStringGeneratorTest extends TestCase
 
         (new ListStringGenerator([]))->generate();
     }
+
     public function testGeneratesCodesFromList(): void
     {
         $generator = new ListStringGenerator(['foo', 'bar']);
