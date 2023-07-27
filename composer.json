@@ -4,7 +4,7 @@
     "description": "This package contains utilities to work with strings in php",
     "license": "proprietary",
     "require": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "thecodingmachine/safe": "^1.3"
     },
     "require-dev": {
